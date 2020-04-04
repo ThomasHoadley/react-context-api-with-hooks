@@ -15,6 +15,8 @@ export const AddTransaction = () => {
             amount: parseInt(amount)
         }
         addTransaction(newTransaction)
+        setAmount(0)
+        setText('')
     }
 
     return (
